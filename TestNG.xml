@@ -1,0 +1,14 @@
+<?xml version ="1.0" encoding="UTF-8"?>
+
+<suite name="userSuit">
+
+<listeners>
+<listener class-name = "utility.ExtendReport"></listener>
+</listeners>t
+	<test thread-count="5" name="userTest">
+		<classes>
+			<class name="test.UserTest"></class>
+		</classes>
+	</test>
+</suite>
+
